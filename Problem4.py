@@ -33,6 +33,11 @@ plt.plot(x2)
 sd.play(x1, Fs1)
 time.sleep(1)
 sd.play(x2, Fs2)
+time.sleep(1)
+sd.play(x1, F0)
+time.sleep(1)
+sd.play(x2, F0)
+
 
 
 
